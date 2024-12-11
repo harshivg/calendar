@@ -12,7 +12,7 @@ export const FilterEvent = () => {
   useEffect(() => {
     const allEvents: Event[] = JSON.parse(localStorage.getItem("events") || "[]");
     setEvents(allEvents);
-  }, []);
+  }, [filter]);
 
   // Update filtered events whenever the filter changes
   useEffect(() => {
