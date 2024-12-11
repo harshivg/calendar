@@ -48,3 +48,17 @@ export default tseslint.config({
   },
 })
 ```
+##
+just fork the repo and write npm install in your terminal to set up the project locally.
+
+Functionality:-
+1. Create an event for the corresponding day, set a name, start and end time and an optional description.
+2. Overlapping events are not allowed.
+3. Simple UI for enhanced, low latency UX.
+
+Features I'm intending to add:-
+1. A type for each event
+2. Drag and drop functionality
+3. Improving the search filter
+4. Exporting the events for this month as a jpg
+
